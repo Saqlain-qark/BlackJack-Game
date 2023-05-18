@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://media.istockphoto.com/id/1092139474/photo/empty-green-casino-poker-table-cloth-with-spotlight.jpg?s=612x612&w=0&k=20&c=0TwjfTAxxMdBPKBnnrhRDmsvYS7ui3Ly_u9HZms8QAc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1,h2{
+  color: goldenrod;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+  margin-bottom: 5px;
+}
+h2{
+  margin-top: 0;
+}
+
+#message-el{
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+
+p{
+  color: whitesmoke;
+  font-size: larger;
+  font-weight: bolder; 
+}
+	  
+
+button{
+  color: #016f32;
+  width: 150px;
+  height: 40px;
+  background-color: goldenrod;
+  border: 2px solid #016f32;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: bolder;
+  display: block;
+  margin-top: 4px;
+  margin-left: 45%;
+  margin-right: 55%;
+  cursor: pointer;
+
+}
+/* button on hover  */
+button:hover{
+  background-color: gold
+}
