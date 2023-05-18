@@ -2,7 +2,7 @@
 
 This is a simple implementation of the Blackjack game in HTML, CSS, and JavaScript.
 
-![Blackjack Game](screenshot.png)
+![Blackjack Game](blackjack_demo.png)
 
 ## Table of Contents
 
