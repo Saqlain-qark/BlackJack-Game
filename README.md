@@ -19,7 +19,7 @@ The Blackjack Game project is a web-based application that allows players to pla
 
 ## Demo
 
-You can see a live demo of the Blackjack Game [here](https://saqlain-qark.github.io/BlackJack-Game/).
+You can see a live demo of the Blackjack Game [here]().
 
 ## Installation
 
