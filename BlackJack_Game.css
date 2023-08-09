@@ -5,6 +5,16 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-attachment: fixed; /* Prevent scrolling */
+    height: 100%; /* Added to ensure background covers entire height */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Added to ensure content takes at least full viewport height */
+    text-align: center;
 }
 h1,h2{
   color: goldenrod;
@@ -49,6 +59,14 @@ button{
 /* button on hover  */
 button:hover{
   background-color: gold
+}
+
+@media only screen and (max-width: 768px) {
+    button {
+        width: 120px;
+        height: 35px;
+        font-size: medium;
+    }
 }
 
 
