@@ -51,10 +51,4 @@ button:hover{
   background-color: gold
 }
 
-@media only screen and (max-width: 768px) {
-    button {
-        width: 120px;
-        height: 70px;
-        font-size: medium;
-    }
-}
+
